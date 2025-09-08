@@ -39,6 +39,7 @@ RM := rm -rf
 -include Libraries/subdir.mk
 -include Configurations/Debug/subdir.mk
 -include Configurations/subdir.mk
+-include .metadata/.plugins/org.eclipse.cdt.make.core/subdir.mk
 -include subdir.mk
 ifneq ($(MAKECMDGOALS),clean)
 ifneq ($(strip $(C++M_DEPS)),)
