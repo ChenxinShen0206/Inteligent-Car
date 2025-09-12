@@ -210,7 +210,7 @@ uint16 CV_RI_Detect(void){
     //图像预处理：生成二值化掩码
     CV_PreprocessImage(img_ptr, mask);
 //    CV_Erode3x3(mask, temp);
-//    CV_Dilate(temp, mask);
+//    CV_Dilate3x3(temp, mask);
 
     //识别是否存在锐角
     for(y = CV_RI_TARGET_Y - 3;y <= CV_RI_TARGET_Y + 3;y++){
