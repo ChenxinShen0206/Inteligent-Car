@@ -208,7 +208,7 @@ uint16 CV_RI_Detect(void){
     memset(mask, 0, sizeof(mask));
 
     //图像预处理：生成二值化掩码
-    CV_PreprocessingImage(img_ptr, mask);
+    CV_PreprocessImage(img_ptr, mask);
 //    CV_Erode3x3(mask, temp);
 //    CV_Dilate(temp, mask);
 
